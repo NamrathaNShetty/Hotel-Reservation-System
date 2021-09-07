@@ -4,7 +4,7 @@ public class Hotel {
     private String hotelName;
     private int hotelRegularRate;
 
-    public Hotel(String hotelName,int hotelRegularRate){
+    public Hotel(String lakeWood, String hotelName, int i, int hotelRegularRate){
         this.hotelName = hotelName;
         this.hotelRegularRate = hotelRegularRate;
     }
