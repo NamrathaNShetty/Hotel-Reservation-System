@@ -20,9 +20,16 @@ public class HotelReservationTest {
         HotelReservationSystem cheapHotel = new HotelReservationSystem();
         cheapHotel.findCheapestHotel();
     }
+
     @Test
     public void addWeekdayAndWeekendRate() {
-       HotelReservationSystem weekdayWeekend = new HotelReservationSystem();
-       weekdayWeekend.weekday_weekend_rate();
+        HotelReservationSystem weekdayWeekend = new HotelReservationSystem();
+        weekdayWeekend.weekday_weekend_rate();
+    }
+
+    @Test
+    public void toFindTheCheapestHotel_OnWeekdayAndWeekend() {
+        HotelReservationSystem cheapHotel = new HotelReservationSystem();
+        cheapHotel.cheapestWeekdayWeekendHotel();
     }
 }
