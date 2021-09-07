@@ -1,42 +1,27 @@
 package com.bridgelabz;
 
 public class Hotel {
-
-    //variables
     private String hotelName;
-    private int weekDayRegularRate;
-    private int weekEndRegularRate;
+    private int hotelRegularRate;
 
-
-    public Hotel(String hotelName, int weekDayRegularRate, int weekEndRegularRate)
-    {
+    public Hotel(String hotelName,int hotelRegularRate){
         this.hotelName = hotelName;
-        this.weekDayRegularRate = weekDayRegularRate;
-        this.weekEndRegularRate=weekEndRegularRate;
+        this.hotelRegularRate = hotelRegularRate;
     }
 
-    public String getHotelName() {
+    public String getHotelName(){
         return hotelName;
     }
 
-    public void setHotelName(String hotelName) {
+    public void setHotelName(String hotelName){
         this.hotelName = hotelName;
     }
 
-    public int getWeekDayRegularRate() {
-        return weekDayRegularRate;
+    public int getHotelRegularRate(){
+        return hotelRegularRate;
     }
 
-    public void setWeekDayRegularRate(int weekDayRegularRate) {
-        this.weekDayRegularRate = weekDayRegularRate;
+    public void setHotelRegularRate(int hotelRegularRate){
+        this.hotelRegularRate = hotelRegularRate;
     }
-
-    public int getWeekEndRegularRate() {
-        return weekEndRegularRate;
-    }
-
-    public void setWeekEndRegularRate(int weekEndRegularRate) {
-        this.weekEndRegularRate = weekEndRegularRate;
-    }
-
 }
